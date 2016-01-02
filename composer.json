@@ -1,0 +1,23 @@
+{
+    "name": "jp3cki/yii2-jquery-stupid-table",
+    "description": "jQuery Stupid Table Assets for Yii Framework 2.",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AIZAWA Hina",
+            "email": "hina@bouhime.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": {
+        "bower-asset/jquery-stupid-table": "^1.0",
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "jp3cki\\yii2\\jqueryStupidTable\\": "src/"
+        }
+    }
+}
